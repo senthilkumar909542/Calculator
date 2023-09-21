@@ -19,6 +19,7 @@ function clicked(event) {
         } catch {
             input.innerHTML = "Invalid Input";
         }
+        
         output = result.slice(-1) == "=" ? result.slice(0, result.length - 1) : result;
 
         if (output === "undefined") output = "";
@@ -32,7 +33,7 @@ function clicked(event) {
     } else if (x === "AC") {
 
         output = String(output).slice(0, -1);
-        
+
     } else {
         if (output === "0") {
             output = "";
@@ -40,8 +41,12 @@ function clicked(event) {
 
         output += x;
     }
-
     input.innerHTML = output;
+    if(output.length >=13){
+        input.innerHTML = "Max Length"
+    }
+
+    
 }
 
 
