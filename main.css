@@ -1,12 +1,9 @@
-
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Courier New", Courier, monospace;
     font-weight: 600;
-    
 }
 
 :root{
@@ -25,10 +22,12 @@ body {
     height: 100vh;
     justify-content: center;
     margin-top: 50px;
-   
 }
 
 .output{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--input);
     height: 70px;
     border-radius: 50px;
@@ -36,9 +35,8 @@ body {
 
 p{
     margin: auto;
-    padding-top: 12px;
     margin-right: 14px;
-    font-size: 35px;
+    font-size: 30px;
     text-align: end;
    
 }
