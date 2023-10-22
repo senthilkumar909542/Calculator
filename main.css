@@ -90,7 +90,7 @@ input::-webkit-inner-spin-button {
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-template-rows: repeat(5, auto);
-    height: 341px;
+    height: 340px;
     text-align: center;
     justify-content: center;
     border-radius: 0px 0px 10px 10px;
