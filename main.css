@@ -12,10 +12,7 @@
     /* Equal button light */
     --equal-light-background: #ED7D31;
     --equal-light-color: black;
-
-    /* background */
-    --container-background: ;
-
+    
     /* keyboard background color*/
     --keyboard-background-lightmode: #8EACCD;
 
@@ -28,15 +25,12 @@
 
 }
 
-.container {
+.calculator {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: var(--container-background);
-}
-
-.calculator {
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -44,7 +38,7 @@
     width: 300px;
     border-radius: 10px;
     background-color: var(--container-background);
-    border: 0.8px solid black;
+    border: 1px solid black;
 }
 
 .calculator>.heading {
@@ -66,8 +60,7 @@
     margin: auto;
     position: absolute;
     left: 85%;
-    top: 35%;
-
+    top: 30%;
 }
 
 .icon>span {
