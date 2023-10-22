@@ -5,46 +5,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <link rel="icon" href="./calculator.png" >
     <link rel="stylesheet" href="./main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet">
+    <link rel="icon" href="./calculator.png" >
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 
 <body>
+    <div class="container" id = "darkmode-container">
+        <div class="calculator" id="darkmode-calculator">
+            <div class="heading">
+                <div class="title">
+                    <h1>
+                        Calculator
+                    </h1>
+                    <span class="icon">
+                        <span class="material-symbols-outlined dark" id="dark">
+                            nights_stay
+                        </span>
+                        <span class="material-symbols-outlined light" id="light">
+                            light_mode
+                            </span>
+                    </span>
+                </div>
+                <div class="output">
+                    <p id="input"></p>
+                </div>
 
-    <div class="container">
-
-        <div class="Calculator">
-            <div class="output">
-                <p id="input"></p>
             </div>
-            <div class="data">
-                <div class="reset">AC</div>
-                <div class="clear">C</div>
-                <div class="divide">/</div>
-                <div class="number-7">7</div>
-                <div class="number-8">8</div>
-                <div class="number-9">9</div>
-                <div class="multiple">*</div>
-                <div class="number-4">4</div>
-                <div class="number-5">5</div>
-                <div class="number-6">6</div>
-                <div class="subtract">-</div>
-                <div class="number-1">1</div>
-                <div class="number-2">2</div>
-                <div class="number-3">3</div>
-                <div class="add">+</div>
-                <div class="remainder">%</div>
-                <div class="number-0">0</div>
-                <div class="dot">.</div>
-                <div class="=">=</div>
+
+            <div class="content " id ="darkmode-content">
+                <span class="reset">AC</span>
+                <span class="clear">C</span>
+                <span class="mod">%</span>
+                <span class="add">+</span>
+                <span class="number-7">1</span>
+                <span class="number-8">2</span>
+                <span class="number-9">3</span>
+                <span class="subtract">-</span>
+                <span class="number-4">4</span>
+                <span class="number-5">5</span>
+                <span class="number-6">6</span>
+                <span class="multiple">*</span>
+                <span class="number-1">7</span>
+                <span class="number-2">8</span>
+                <span class="number-3">9</span>
+                <span class="divide">/</span>
+                <span class="number-0">0</span>
+                <span class="dot">.</span>
+                <span class="equal">=</span>
             </div>
 
         </div>
     </div>
     <script src="./javascript.js"></script>
+
+
 </body>
 
 </html>
